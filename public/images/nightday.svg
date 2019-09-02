@@ -4,9 +4,9 @@
 	 height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
 <g id="Black">
 	<g>
-		<polygon fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="14.5,14.5 
+		<polygon fill="none" stroke="#0F0326" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="14.5,14.5 
 			11.071,17.5 16,17.5 18.5,15.5 18.5,9.5 16,7.5 11,7.5 14.5,10.5 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polygon fill="none" stroke="#F5F7DC" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 			20.5,15.848 23.5,12.5 20.5,9.152 20.5,4.5 15.848,4.5 12.5,1.5 9.152,4.5 4.5,4.5 4.5,9.152 1.5,12.5 4.5,15.848 4.5,20.5 
 			9.152,20.5 12.5,23.5 15.848,20.5 20.5,20.5 		"/>
 	</g>
