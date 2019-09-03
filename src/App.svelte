@@ -35,9 +35,6 @@
 :global(body) {
 	background-color: #F5F7DC;
 	color: #0F0326;
-	transition: all 2s linear;
-	-webkit-transition: all 2s linear;
-	-moz-transition: all 2s linear;
 }
 
 :global(.light-theme) {
