@@ -2,7 +2,6 @@
 	import TopBar from './components/TopBar.svelte';
 	import Question from './components/Question.svelte';
 	import Questions from './questions.json';
-	import { onMount } from 'svelte';
 
 	export let theme = 'light';
 	export let categories = Object.keys(Questions);
@@ -23,11 +22,6 @@
 			document.body.style.color = "#0F0326";
 		}
 	}
-
-	onMount(() => {
-		document.body.style.backgroundColor = "#F5F7DC";
-		document.body.style.color = "#0F0326";
-	})
 </script>
 
 <style>
@@ -36,6 +30,14 @@
 	padding: 0;
 	height: 100%;
 	width: 100%;
+}
+
+:global(body) {
+	background-color: #F5F7DC;
+	color: #0F0326;
+	transition: all 2s linear;
+	-webkit-transition: all 2s linear;
+	-moz-transition: all 2s linear;
 }
 
 :global(.light-theme) {
