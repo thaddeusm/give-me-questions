@@ -2,9 +2,28 @@
 	import TopBar from './components/TopBar.svelte';
 	import Question from './components/Question.svelte';
 	import Questions from './questions.json';
+	import { onMount } from 'svelte';
 
 	export let theme = 'light';
 	export let categories = Object.keys(Questions);
+
+	function setThemePreference() {
+		let str = JSON.stringify(theme)
+
+    	localStorage.setItem('theme', str)
+	}
+
+	function retrieveThemePreference() {
+		let storedStr = localStorage.getItem('theme')
+		let storedPreference = JSON.parse(storedStr)
+
+		
+		if (storedPreference !== null) {
+			if (theme !== storedPreference) {
+				toggleTheme()
+			}
+		}
+	}
 
 	function toggleTheme() {
 		console.log('theme is now', theme);
@@ -21,7 +40,13 @@
 			document.body.style.backgroundColor = "#F5F7DC";
 			document.body.style.color = "#0F0326";
 		}
+
+		setThemePreference()
 	}
+
+	onMount(() => {
+		retrieveThemePreference()
+	})
 </script>
 
 <style>
