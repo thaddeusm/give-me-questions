@@ -13,7 +13,7 @@
 <style>
 header {
 	display: grid;
-	grid-template-columns: 5% 1fr 2em 5%;
+	grid-template-columns: 5% 1fr 2.5em 5%;
 	grid-template-areas: ". title themeButton .";
 	height: 12vh;
 	align-items: center;
@@ -36,7 +36,7 @@ button {
 
 img {
 	vertical-align: middle;
-	width: 1.7em;
+	width: 2em;
 }
 </style>
 
