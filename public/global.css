@@ -20,11 +20,6 @@ body {
 	background: #0F0326;
 }
 
-@font-face {
-	font-family: "ArchivoNarrow";
-	src: url("./ArchivoNarrow.ttf");
-}
-
 h1 {
 	font-size: 1.5em;
 }
