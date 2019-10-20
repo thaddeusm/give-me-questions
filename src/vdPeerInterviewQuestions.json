@@ -1,0 +1,47 @@
+{
+	"location": [
+		"How big of a house do you want?",
+		"What style would you like for your rooms?",
+		"What you will put in your dream house?",
+		"Which city would you like to live in most?",
+		"In which style will you decorate your house: traditional or modern? Why?",
+		"In which city do you want to live and work? Why?",
+		"What kind of environment do you want?"
+	],
+	"lifestyle": [
+		"Will our dreams be the same?",
+		"What is your dream life?",
+		"What kind of lifestyle will you live?",
+		"What is most important to you?",
+		"How would you describe your ideal work / life balance?"
+	],
+	"travel": [
+		"If you have lots of money, where will you go for traveling?",
+		"Where do you want to travel in the future?",
+		"How often would you like to travel?",
+		"What kind of vacations do you hope to afford?"
+	],
+	"career": [
+		"What benefits do you want from your future job?",
+		"Why do you want to get a high salary?",
+		"How many working hours do you want to have in a week?",
+		"Where can you get good salary?",
+		"What’s your expectation about your salary?",
+		"How much money do you think is enough for you?",
+		"What kind of work do you want?"
+	],
+	"family": [
+		"What kind of family do you want to have?",
+		"How do you define a successful family?",
+		"Would you want live with your parents?",
+		"Will you live with your family or be alone? Why?",
+		"How many people do you want to live with?",
+		"How many children would you like to have, if any?"
+	],
+	"study": [
+		"What new things do want to learn to promote your life standard?",
+		"What do you want to do after graduating?",
+		"How do you feel about the idea of continuing your studies after graduating from FHSU?",
+		"When do you plan to finish all of your university studies?"
+	]
+}

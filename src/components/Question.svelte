@@ -16,14 +16,14 @@
 <style>
 @media screen and (max-width: 449px) {
 	section {
-		border-top: 2px solid #B5D99C;
-		border-bottom: 2px solid #B5D99C;
+		border-top: 2px solid var(--yellow);
+		border-bottom: 2px solid var(--yellow);
 	}
 }
 
 @media screen and (min-width: 450px) {
 	section {
-		border: 2px solid #B5D99C;
+		border: 2px solid var(--yellow);
 		border-radius: 5px;
 	}
 }
@@ -32,12 +32,13 @@ section {
 	max-width: 450px;
 	margin: 50px auto;
 	padding: 0 5%;
-	box-shadow: 0px 0px 3px black;
+	box-shadow: 0px 0px 3px var(--black);
 }
 
 h3 {
 	font-style: italic;
 	opacity: .8;
+	color: var(--gray);
 }
 </style>
 

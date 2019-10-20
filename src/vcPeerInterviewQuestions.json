@@ -1,0 +1,55 @@
+{
+	"location": [
+		"In which country would you prefer to live?",
+		"Which kind house would you like to buy?",
+		"Will you follow your parents arrangement in your hometown or choose to strive alone in another city?",
+		"What kind of house do you want to have?",
+		"How big of a house do you want to have?",
+		"What’s your ideal future home like?",
+		"Do you want to live in the city or the country most in your future? Why?"
+	],
+	"lifestyle": [
+		"What kind of pets do you want to feed in the future?",
+		"Which thing do you think is most important to do with your family?",
+		"What pet do you want to have in the future?",
+		"Which is more important between a job and family?",
+		"What is most important to your family?",
+		"What kind of person do you want to be?",
+		"What is your ideal living standard?"
+	],
+	"travel": [
+		"Where do you want to travel in your dream?",
+		"Where do you want to travel in the future? What’s the most attractive thing about this place?",
+		"How often will you and your family travel?",
+		"Where do you want to travel most?",
+		"If you can travel anywhere in the world, where do you want to go most?",
+		"How often do you dream to travel in the future?"
+	],
+	"career": [
+		"What are your salary expectations? Do you think it is enough to support your dream lifestyle?",
+		"Which one will you choose: a high salary job or a low-paid job but one you like? Why?",
+		"How much do you want to get from your future job?",
+		"How much income would help you accept a heavy pressure job?",
+		"How can you earn more money aside from your daily work?",
+		"If you take the postgraduate entrance examination in Shanghai, what kind of job would you like to find there?",
+		"What kind of working environment would you like to have?"
+	],
+	"family": [
+		"What's the biggest responsibility when you have your own family?",
+		"How many kids would you like to be?",
+		"Which one would you prefer to choose: being alone or having family? Why?",
+		"Which one would you like: a son or a daughter?",
+		"How many children do you want to have in the future?",
+		"What do you think about having a baby?",
+		"What time do you want to marry, or start a family?",
+		"When would you like to have the first baby?",
+		"What kind of person do you want to marry?",
+		"If your family doesn't like your dreams, what do you do?"
+	],
+	"study": [
+		"What will you do to achieve your plan?",
+		"How do you feel about going abroad, taking part in the postgraduate entrance exams or finding a job after graduation?",
+		"Will you continue to study after graduating from FHSU?",
+		"If you could study anywhere to earn an advanced degree, where would you study?"
+	]
+}

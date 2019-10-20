@@ -1,8 +1,30 @@
 <script>
+	export let query;
+
 	import TopBar from './components/TopBar.svelte';
 	import Question from './components/Question.svelte';
-	import Questions from './questions.json';
 	import { onMount } from 'svelte';
+
+	import ReflectionQuestions from './reflectionQuestions.json';
+	import VA from './vaPeerInterviewQuestions.json';
+	import VB from './vbPeerInterviewQuestions.json';
+	import VC from './vcPeerInterviewQuestions.json';
+	import VD from './vdPeerInterviewQuestions.json';
+
+	let Questions;
+
+	if (!query.hasOwnProperty('course')) {
+		Questions = ReflectionQuestions;
+	} else if (query.course == 'va') {
+		Questions = VA;
+	} else if (query.course == 'vb') {
+		Questions = VB;
+	} else if (query.course == 'vc') {
+		Questions = VC;
+	} else {
+		Questions = VD;
+	}
+	
 
 	export let theme = 'light';
 	export let categories = Object.keys(Questions);
@@ -31,14 +53,14 @@
 			theme = 'dark';
 			theme = theme;
 
-			document.body.style.backgroundColor = "#0F0326";
-			document.body.style.color = "#F5F7DC";
+			document.body.style.backgroundColor = "#000000";
+			document.body.style.color = "#E5E5E5";
 		} else {
 			theme = 'light';
 			theme = theme;
 
-			document.body.style.backgroundColor = "#F5F7DC";
-			document.body.style.color = "#0F0326";
+			document.body.style.backgroundColor = "#E5E5E5";
+			document.body.style.color = "#000000";
 		}
 
 		setThemePreference()
@@ -46,19 +68,15 @@
 
 	onMount(() => {
 		retrieveThemePreference()
+
+		console.log(query)
 	})
 </script>
 
 <style>
-@font-face {
-	font-family: "ArchivoNarrow";
-	src: url("./ArchivoNarrow.ttf");
-}
-
 #app {
 	height: 100%;
 	width: 100%;
-	font-family: "ArchivoNarrow";
 }
 
 main {

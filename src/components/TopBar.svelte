@@ -22,7 +22,7 @@ header {
 h1 {
 	margin: 0;
 	grid-area: title;
-	color: #E65F5C;
+	color: var(--red);
 }
 
 button {
