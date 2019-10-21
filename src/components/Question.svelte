@@ -10,7 +10,7 @@
 	onMount(() => {
 		let randomQuestionIndex = Math.floor(Math.random(questions) * questions.length);
 
-		question = questions[randomQuestionIndex]
+		question = questions[randomQuestionIndex];
 	})
 </script>
 

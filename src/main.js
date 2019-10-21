@@ -1,19 +1,19 @@
 import App from './App.svelte';
 
-const href = window.location.href
+const href = window.location.href;
 
-// if query param is present, pass as prop
-let query = {}
+// if query is present, pass as prop
+let query = {};
 
 if (href.indexOf('?') !== -1) {
-	let paramStr = href.split('?')[1]
+	let queryStr = href.split('?')[1];
 
-	let param = paramStr.split('=')
+	let arr = queryStr.split('=');
 
-	let key = param[0]
-	let value = param[1]
+	let key = arr[0];
+	let value = arr[1];
 
-	query[key] = value
+	query[key] = value;
 }
 
 const app = new App({

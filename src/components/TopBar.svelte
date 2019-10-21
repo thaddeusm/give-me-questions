@@ -4,7 +4,7 @@
 	const dispatch = createEventDispatcher();
 
 	function changeTheme() {
-		dispatch('change')
+		dispatch('change');
 	}
 
 	export let theme;

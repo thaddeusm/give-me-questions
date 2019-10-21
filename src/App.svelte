@@ -30,19 +30,19 @@
 	export let categories = Object.keys(Questions);
 
 	function setThemePreference() {
-		let str = JSON.stringify(theme)
+		let str = JSON.stringify(theme);
 
-    	localStorage.setItem('theme', str)
+    	localStorage.setItem('theme', str);
 	}
 
 	function retrieveThemePreference() {
-		let storedStr = localStorage.getItem('theme')
-		let storedPreference = JSON.parse(storedStr)
+		let storedStr = localStorage.getItem('theme');
+		let storedPreference = JSON.parse(storedStr);
 
 		
 		if (storedPreference !== null) {
 			if (theme !== storedPreference) {
-				toggleTheme()
+				toggleTheme();
 			}
 		}
 	}
@@ -63,13 +63,13 @@
 			document.body.style.color = "#000000";
 		}
 
-		setThemePreference()
+		setThemePreference();
 	}
 
 	onMount(() => {
-		retrieveThemePreference()
+		retrieveThemePreference();
 
-		console.log(query)
+		console.log(query);
 	})
 </script>
 
