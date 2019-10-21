@@ -3,6 +3,7 @@
 
 	export let title;
 	export let questions;
+	export let theme;
 
 	export let question = "loading";
 
@@ -33,16 +34,21 @@ section {
 	margin: 50px auto;
 	padding: 0 5%;
 	box-shadow: 0px 0px 3px var(--black);
+	background: var(--dark-gray);
 }
 
 h3 {
 	font-style: italic;
-	opacity: .8;
-	color: var(--gray);
+	opacity: 1;
+	color: var(--yellow);
+}
+
+.light {
+	background: var(--white);
 }
 </style>
 
-<section>
+<section class:light={theme == 'light'}>
 	<h3>
 		{title}
 	</h3>

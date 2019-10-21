@@ -13,7 +13,7 @@
 <style>
 header {
 	display: grid;
-	grid-template-columns: 5% 1fr 2.5em 5%;
+	grid-template-columns: 5% 1fr auto 5%;
 	grid-template-areas: ". title themeButton .";
 	height: 12%;
 	align-items: center;

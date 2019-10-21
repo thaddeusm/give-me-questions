@@ -89,7 +89,7 @@ main {
 	<TopBar {theme} on:change={toggleTheme} />
 	<main>
 		{#each categories as category}
-			<Question title={category} questions={Questions[category]}/>
+			<Question title={category} questions={Questions[category]} {theme} />
 		{/each}
 	</main>
 </div>
