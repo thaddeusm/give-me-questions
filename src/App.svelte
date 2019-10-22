@@ -1,6 +1,10 @@
 <script>
-	import { Router } from 'svelte-router-spa';
-	import { routes } from './routes';
+	import { Router, Route } from 'svero';
+	import VideoResponse from './views/VideoResponse.svelte';
+	import VA from './views/VA.svelte';
+	import VB from './views/VB.svelte';
+	import VC from './views/VC.svelte';
+	import VD from './views/VD.svelte';
 
 	let theme;
 
@@ -24,7 +28,12 @@
 }
 </style>
 
-
 <div id="app" class="{theme === 'light' ? 'light-theme' : 'dark-theme'}">
-	<Router {routes} />
+	<Router>
+		<Route path="*" component={VideoResponse} />
+		<Route path="/va" component={VA} />
+		<Route path="/vb" component={VB} />
+		<Route path="/vc" component={VC} />
+		<Route path="/vd" component={VD} />
+	</Router>
 </div>
