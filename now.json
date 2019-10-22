@@ -1,29 +1,3 @@
 {
-	"alias": ["response-questions.seatsmart.tech"],
-	"routes": [
-		{
-			"src": "/",
-			"dest": "/index.html"
-		},
-		{
-			"src": "/va",
-			"dest": "/index.html/va"
-		},
-		{
-			"src": "/vb",
-			"dest": "/index.html/vb"
-		},
-		{
-			"src": "/vc",
-			"dest": "/index.html/vc"
-		},
-		{
-			"src": "/vd",
-			"dest": "/index.html/vd"
-		},
-		{
-			"src": "/(.*)",
-			"dest": "/"
-		}
-	]
+	"alias": ["response-questions.seatsmart.tech"]
 }
