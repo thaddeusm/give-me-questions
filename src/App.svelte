@@ -31,6 +31,7 @@
 <div id="app" class="{theme === 'light' ? 'light-theme' : 'dark-theme'}">
 	<Router>
 		<Route path="*" component={VideoResponse} />
+		<Route path="/" component={VideoResponse} />
 		<Route path="/va" component={VA} />
 		<Route path="/vb" component={VB} />
 		<Route path="/vc" component={VC} />
