@@ -3,23 +3,23 @@
 	"routes": [
 		{
 			"src": "/",
-			"dest": "/"
+			"dest": "/index.html"
 		},
 		{
 			"src": "/va",
-			"dest": "/va"
+			"dest": "/index.html/va"
 		},
 		{
 			"src": "/vb",
-			"dest": "/vb"
+			"dest": "/index.html/vb"
 		},
 		{
 			"src": "/vc",
-			"dest": "/vc"
+			"dest": "/index.html/vc"
 		},
 		{
 			"src": "/vd",
-			"dest": "/vd"
+			"dest": "/index.html/vd"
 		},
 		{
 			"src": "/(.*)",
