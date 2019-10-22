@@ -32,9 +32,9 @@
 	<Router>
 		<Route path="*" component={VideoResponse} />
 		<Route path="/" component={VideoResponse} />
-		<Route path="/va" component={VA} />
-		<Route path="/vb" component={VB} />
-		<Route path="/vc" component={VC} />
-		<Route path="/vd" component={VD} />
+		<Route path="/class/va" component={VA} />
+		<Route path="/class/vb" component={VB} />
+		<Route path="/class/vc" component={VC} />
+		<Route path="/class/vd" component={VD} />
 	</Router>
 </div>
