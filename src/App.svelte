@@ -22,19 +22,14 @@
 </script>
 
 <style>
-#app {
-	height: 100%;
-	width: 100%;
-}
+
 </style>
 
-<div id="app" class="{theme === 'light' ? 'light-theme' : 'dark-theme'}">
-	<Router>
-		<Route path="*" component={VideoResponse} />
-		<Route path="/" component={VideoResponse} />
-		<Route path="/class/va" component={VA} />
-		<Route path="/class/vb" component={VB} />
-		<Route path="/class/vc" component={VC} />
-		<Route path="/class/vd" component={VD} />
-	</Router>
-</div>
+<Router>
+	<Route path="*" component={VideoResponse} />
+	<Route exact path="/" component={VideoResponse} />
+	<Route exact path="/va" component={VA} />
+	<Route exact path="/vb" component={VB} />
+	<Route exact path="/vc" component={VC} />
+	<Route exact path="/vd" component={VD} />
+</Router>
