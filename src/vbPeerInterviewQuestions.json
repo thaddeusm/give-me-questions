@@ -16,7 +16,8 @@
 		"What would you give up for a dream?",
 		"What kind of lifestyle do you want to have?",
 		"What do you want your future life to be?",
-		"Which places you prefer to go in the future?"
+		"Which places you prefer to go in the future?",
+		"If your dreams conflict with reality, what will you do?"
 	],
 	"travel": [
 		"Which is better: for you to travel alone or be accompanied? Why?",
@@ -24,7 +25,6 @@
 		"What are your travel plans?",
 		"What do you want to happen during a trip?",
 		"What is the meaning of traveling to you?",
-		"If your dreams conflict with reality, what will you do?",
 		"To which country you want to travel in the future?"
 	],
 	"career": [
